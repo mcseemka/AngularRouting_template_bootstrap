@@ -3,7 +3,7 @@ Angular template with  basic Ng-Routing for private usage
 
 Installation :
 
-    git clone https://github.com/mcseemka/AngularRouting_template_bootstrap.git
+    git clone https://github.com/mcseemka/AngularRouting_template_bootstrap.git .
     npm install
      bower install
 
