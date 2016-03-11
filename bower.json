@@ -1,0 +1,28 @@
+{
+  "name": "angular-template",
+  "description": "Angular  Starter Template : Angular Material,JQuery,JQuery Ui And Gulp Included",
+  "main": "index.js",
+  "authors": [
+    "Maxim Rachman"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.0",
+    "jquery": "~2.2.1",
+    "jquery-ui": "~1.11.4",
+    "angular-animate": "~1.5.0",
+    "bootstrap": "~3.3.6",
+    "angular-route": "~1.5.0"
+  }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  
+  <meta charset="UTF-8">
+  <title> Template Title</title>
+   <link rel="stylesheet" href="css/style.min.css">
+  
+
+ 
+</head>
+<body  ng-app="app"  ng-controller="MainCtrl as mc">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 col-sm-6 pull-left">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSite name</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li> 
+      <li><a href="#">Page 3</a></li> 
+    </ul>
+  </div>
+</nav>
+
+</div>  
+
+</div>
+  </div>
+  <br><br>
+<div class="container-fluid" style=" height:100%;">
+<div class="row no-glutter" style="height:100%">
+    <div class="col-md-2  col-sm-4">
+<div class="accordion" id="leftMenu">
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#leftMenu" href="#menu1">
+                                  <i class="icon-home"></i> Menu 1
+                            </a>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#leftMenu" href="#menu2">
+                                <i class="icon-th"></i> Menu 2
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="accordion-body collapse" style="height: 0px; ">
+                            <div class="accordion-inner">
+                                <ul>
+                                    <li>This is one</li>
+                                    <li>This is two</li>
+                                    <li>This is Three</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#leftMenu" href="#menu3">
+                                <i class="icon-th-list"></i> Menu3
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="accordion-body collapse" style="height: 0px; ">
+                            <div class="accordion-inner">
+                                <ul>
+                                    <li>This is one</li>
+                                    <li>This is two</li>
+                                    <li>This is Three</li>
+                                </ul>                 
+                            </div>
+                         </div>
+                    </div>
+        
+       
+
+                </div>
+
+    </div> 
+<div class="col-md-6 col-sm-6">
+  <ng-view></ng-view>
+  </div>
+    <div class="col-md-4  col-sm-6 ">
+  <div class="panel panel-primary">
+      <div class="panel-heading">Some Panel</div>
+      <div class="panel-body">Panel Content</div>
+    </div>
+  <div class="panel panel-primary">
+      <div class="panel-heading">Some Panel 2</div>
+      <div class="panel-body">More Panel Content</div>
+    </div>
+
+
+
+
+
+      </div>  
+
+
+</div>
+  </div>
+
+<script src="libs/jquery/jquery.js"></script>
+<script src="libs/jquery/jquery-ui.min.js"></script>
+ <script src="libs/angular/angular.concat.js"></script>
+ <script src="app/build.js"> </script>
+</body>
+</html>
+
+
+
